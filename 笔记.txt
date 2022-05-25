@@ -1,0 +1,32 @@
+
+引入基本css    css里的变量用--开头
+
+使用别名：创建一个vue.config.js文件夹，并且在里面配置别名
+
+统一文本代码缩进等一些格式问题    创建.editorconfig配置文件
+
+commont里面放其他项目可以直接重复使用的模块
+content放本项目中多个页面可以重读使用的模块
+
+想监听到子组件的点击事件需要加   .native
+兄弟组件之间传值使用通过父组件和$ref
+组件之间的重复属性可以使用mixin函数
+https://www.cnblogs.com/fqh123/p/12704910.html   $bus无关系的两个组件使用此实例传递响应交互
+$on 和$off  和$bus一起使用比较方便
+父元素开启fixed定位脱离文档流 ，内部的flex布局的子元素如何保持布局  设置宽高度
+对象间赋值即是引用复制赋值,指针同时指向堆区的同一块内存区域
+引入组件名称兼容大小写
+mixin混入只能添加一个完整的生命周周期函数，函数内部的代码不能单独添加
+keep-alive的生命周期
+activated： 页面第一次进入的时候，钩子触发的顺序是created->mounted->activated
+deactivated:  页面退出的时候会触发deactivated，当再次前进或者后退的时候只触发activated
+https://blog.csdn.net/weixin_33728268/article/details/93281766         keepalive的选择缓存机制
+
+
+
+
+
+
+
+
+
