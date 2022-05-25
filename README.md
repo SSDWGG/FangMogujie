@@ -33,6 +33,6 @@ vue vue-cli vue-router vuex
 - [x] 商品详情页（详情调转功能）
 - [x] 商品添加到购物车功能
 - [x] 商品分类展示页面
-- [x]keeplive缓存状态功能
+- [x] keeplive缓存状态功能
 
 <br/>
